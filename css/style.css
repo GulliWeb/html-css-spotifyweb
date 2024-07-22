@@ -55,23 +55,27 @@ header button{
 /* Main */
 .main-wrapper{
     padding-top: 59.5px;
+    overflow: auto;
 }
 
 /* Navbar left */
 #nav-left{
     height: 100%;
-    flex-basis: 20%;
+    flex-basis: 230px;
+    flex-shrink: 0;
     background-color: black;
     border: 2px dashed white;
+    overflow-y: auto;
 }
 
 /* Main card content */
 .main-card-wrapper{
     flex-grow: 1;
-    background-color: red;
+    background-color: rgb(21, 25, 33);
+    overflow-y: auto;
 }
 
 .footer-wrapper{
-    background-color: yellow;
+    background-color: #444;
     height: 100px;
 }
