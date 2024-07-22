@@ -30,6 +30,7 @@ img{
 
 /* Navbar header */
 header .content{
+    position: fixed;
     width: 100%;
     padding: 10px 10px;
     display: flex;
@@ -45,4 +46,23 @@ header button{
     border-radius: 17px;
     padding: 10px 30px;
     border: 2px solid white;
+}
+
+/* Main */
+.main-wrapper{
+    padding-top: 59.5px;
+}
+
+/* Navbar left */
+#nav-left{
+    height: calc(100vh - 100px);
+    flex-basis: 20%;
+    background-color: black;
+    border: 2px dashed white;
+}
+
+/* Main card content */
+.main-card-wrapper{
+    flex-grow: 1;
+    background-color: red;
 }
