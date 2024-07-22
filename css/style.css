@@ -16,8 +16,18 @@ img{
     max-width: 100%;
 }
 
+i{
+    width: 100%;
+    height: 100%;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
 .main-wrapper{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 158.5px);
 }
 
 .white{
@@ -41,7 +51,7 @@ header .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(9, 11, 18, 0.5);
 }
 
 header .card-img{
@@ -73,6 +83,15 @@ header button:active{
     font-size: 13px;
 }
 
+*:hover{
+    cursor: pointer;
+}
+
+.row li:active{
+    font-weight: bolder;
+    color: gray;
+}
+
 /* Main */
 .main-wrapper{
     overflow: auto;
@@ -84,9 +103,113 @@ header button:active{
     flex-basis: 230px;
     flex-shrink: 0;
     background-color: black;
-    border: 2px dashed white;
+    color: gray;
+
     overflow-y: auto;
 }
+
+.nav-left-wrapper{
+    height: 100%;
+    position: relative;
+}
+
+.nav-left-wrapper .img-card{
+    width: 30px;
+}
+
+.nav-left-wrapper .top{
+    padding-top: 15px;
+}
+
+.nav-left-wrapper .row{
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.nav-left-wrapper .row:hover{
+    border-left: 4px rgb(193, 255, 92) solid; 
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: white;
+}
+
+.nav-left-wrapper ul li{
+    margin-bottom: 10px;
+}
+
+/* Nav left bottom */
+.bottom .img-card{
+    font-size: 30px;
+}
+
+.bottom .row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom .row.flex{
+    padding: 0;
+    margin-top: 10px;
+}
+
+.bottom ul li{
+    margin-bottom: 10px;
+}
+
+/* Nav left footer */
+footer .content {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+
+    padding-left: 10px;
+    margin-bottom: 5px;
+    gap: 7px;
+    flex-direction: column;
+}
+
+footer .content .top{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 7px;
+    gap: 5px;
+}
+
+footer .content .bottom{
+    width: 100%;
+    gap: 7px;
+}
+
+footer .content .bottom p{
+    color: white;
+}
+
+
+footer .content .img-card{
+    width: 20px;
+}
+
+footer .content .top:hover{
+    color: white;
+}
+
+footer .content .top:active{
+    font-weight: bold;
+    color: gray;
+}
+
+footer .content .bottom p:hover{
+    color: white;
+}
+
+footer .content .bottom:active{
+    font-weight: bold;
+}
+
 
 /* Main card content */
 .main-card-wrapper{
