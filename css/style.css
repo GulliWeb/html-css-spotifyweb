@@ -219,6 +219,12 @@ footer .content .bottom p:hover{
 }
 
 /* Footer page */
+
+/* Left */
+.left{
+    flex-basis: 30%;
+}
+
 .foot-content .card {
     align-items: center;
 }
@@ -277,4 +283,66 @@ footer .content .bottom p:hover{
 
 .foot-content .ico i{
     padding-right: 20px;
+}
+
+/* middle */
+.middle{
+    height: 100%;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.middle-content-top{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.middle-content-top .ico p{
+    font-size: 23px;
+    padding-right: 25px;
+    padding-left: 0;
+    color: white;
+}
+
+.middle-content-bottom{
+    margin-bottom: 30px;
+}
+
+.bottom-ico{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* Right */
+.right{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.right-ico{
+    height: 100%;
+    align-items: center;
+}
+
+.right-ico i{
+    color: white
+}
+
+.middle .ico p:hover{
+    color: gray;
+}
+
+.middle .ico p:active{
+    color: white;
+    font-weight: bold;
+}
+
+.right .ico i:hover{
+    color: gray;
+}
+
+.right .ico i:active{
+    color: white;
+    font-weight: bold;
 }
