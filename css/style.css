@@ -206,11 +206,6 @@ footer .content .bottom p:hover{
     color: white;
 }
 
-footer .content .bottom:active{
-    font-weight: bold;
-}
-
-
 /* Main card content */
 .main-card-wrapper{
     flex-grow: 1;
@@ -221,4 +216,65 @@ footer .content .bottom:active{
 .footer-wrapper{
     background-color: #444;
     height: 100px;
+}
+
+/* Footer page */
+.foot-content .card {
+    align-items: center;
+}
+
+.foot-content .text{
+    padding-left: 10px;
+}
+
+.foot-content .text h3{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.foot-content .text p{
+    padding-top: 1px;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.foot-content{
+    height: 100%;
+    margin: 0 15px;
+    align-items: center;
+}
+
+.foot-content .img-card{
+    max-width: 50px;
+
+}
+
+.foot-content .ico{
+    padding-left: 50px;
+    color: gray;
+}
+
+.foot-content i.fa-heart-pulse:hover{
+    color: red;
+    font-size: larger;
+}
+
+.foot-content i.fa-heart-pulse:active{
+    color: gray;
+    font-size: smaller;
+}
+
+.foot-content i.fa-folder:hover{
+    color: darkgoldenrod;
+    font-size: larger;
+}
+
+.foot-content i.fa-folder:active{
+    color: gray;
+    font-size: smaller;
+}
+
+.foot-content .ico i{
+    padding-right: 20px;
 }
