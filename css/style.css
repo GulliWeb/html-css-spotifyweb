@@ -260,6 +260,10 @@ footer .content .bottom p:hover{
     width: 200px;
 }
 
+.main-card-title p{
+    color: gray;
+}
+
 .card .image{
     margin: 0 auto;
 }
@@ -283,8 +287,12 @@ footer .content .bottom p:hover{
     display: none; 
 }
 
+.album-middle-wrapper{
+    margin-top: 15px;
+}
 
 .album-wrapper{
+    margin-left: -40px;
     margin-top: 20px;
     flex-wrap: wrap;
     
@@ -439,6 +447,7 @@ footer .content .bottom p:hover{
 .right-ico{
     height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .right-ico i{
