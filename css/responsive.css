@@ -1,19 +1,23 @@
-/* Medium size responsive ( >= 968px ) */
+/* Medium size responsive ( >= 968px ) *
 @media screen and (max-width: 1550px) {
     .album-wrapper .card{
         flex-basis: calc(100% / 4);
     }
 }
 
-/* Small size responsive ( >= 768px ) */
-@media screen and (max-width: 1200px) {
+/* Small size responsive ( >= 768px ) *
+@media screen and (max-width: 768px) {
     .album-wrapper .card{
         flex-basis: calc(100% / 2);
     }
+
+    .nav-left-wrapper ul li p{
+        display: none;
+    }
 }
 
-/* ExtraSmall size responsive ( >= 550px ) */
-@media screen and (max-width: 550px) {
+/* ExtraSmall size responsive ( >= 550px ) *
+@media screen and (min-width: 550px) {
     .album-wrapper .card{
         flex-basis: calc(100% / 2);
     }

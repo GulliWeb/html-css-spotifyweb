@@ -97,6 +97,9 @@ header button:active{
     color: gray;
 }
 
+.radius{
+    border-radius: 50%;
+}
 /* Main */
 .main-wrapper{
     overflow: auto;
