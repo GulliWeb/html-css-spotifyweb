@@ -157,9 +157,17 @@ ul li:hover{
     color: gray;
 }
 
+.main-card-wrapper ul li:hover::after{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: lawngreen;
+    margin: 3px auto;
+}
+
 .main-card-wrapper ul li:hover{
     color: white;
-    font-weight: bold;
 }
 
 .main-card-wrapper ul li:active{
@@ -251,6 +259,30 @@ footer .content .bottom p:hover{
 .main-card-wrapper .img-card{
     width: 200px;
 }
+
+.card .image{
+    margin: 0 auto;
+}
+
+
+
+.img-card{
+    position: relative;
+}
+
+.img-card .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    display: none; 
+}
+
 
 .album-wrapper{
     margin-top: 20px;

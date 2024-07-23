@@ -1,0 +1,25 @@
+/* Medium size responsive ( >= 968px ) */
+@media screen and (min-width: 968px) {
+    .album-wrapper .card{
+        flex-basis: calc(100% / 4);
+    }
+}
+
+/* Small size responsive ( >= 768px ) *
+@media screen and (min-width: 768px) {
+    .album-wrapper .card{
+        flex-basis: calc(100% / 2);
+    }
+}
+
+/* ExtraSmall size responsive ( >= 550px ) *
+@media screen and (min-width: 768px) {
+    .album-wrapper .card{
+        flex-basis: calc(100% / 2);
+    }
+
+    .nav-left .row .img-card p{
+        display: none;
+    }
+}
+
