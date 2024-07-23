@@ -127,6 +127,11 @@ header button:active{
     padding-left: 10px;
 }
 
+.bottom .row h2{
+    font-size: 16px;
+    color: white;
+}
+
 .nav-left-wrapper .row:hover{
     border-left: 4px rgb(193, 255, 92) solid; 
     font-weight: bolder;
@@ -140,6 +145,28 @@ ul li:hover{
 .nav-left-wrapper ul li{
     margin-bottom: 10px;
 }
+
+/* Main content */
+.main-card-wrapper ul{
+    justify-content: center;
+}
+
+.main-card-wrapper ul li{
+    margin-top: 15px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.main-card-wrapper ul li:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.main-card-wrapper ul li:active{
+    color: gray;
+}
+
+
 
 /* Nav left bottom */
 .bottom .img-card{
@@ -213,6 +240,59 @@ footer .content .bottom p:hover{
     overflow-y: auto;
 }
 
+.main-card-wrapper .main-card-title h2{
+    color: white;
+}
+
+.main-card-wrapper main{
+    margin: 40px 20px;
+}
+
+.main-card-wrapper .img-card{
+    width: 200px;
+}
+
+.album-wrapper{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.album-wrapper .card{
+    padding-right: 15px;
+    flex-basis: calc(100% / 6);
+    flex-direction: column;
+}
+
+.album-wrapper .text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.album-wrapper .text h3{
+    color: white;
+    font-weight: bold;
+}
+
+.album-wrapper p{
+    margin-top: 5px;
+    color: gray;
+}
+
+#album-bottom{
+    margin-top: 35px;
+}
+
+#album-bottom .main-card-title p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.album-middle-wrapper{
+    flex-direction: column;
+}
+
 .footer-wrapper{
     background-color: #444;
     height: 100px;
@@ -222,7 +302,7 @@ footer .content .bottom p:hover{
 
 /* Left */
 .left{
-    flex-basis: 30%;
+    flex-basis: 25%;
 }
 
 .foot-content .card {
@@ -314,10 +394,14 @@ footer .content .bottom p:hover{
     justify-content: space-evenly;
 }
 
+.bottom-ico p{
+    font-size: 12px;
+}
+
 /* Right */
 .right{
     height: 100%;
-    flex-grow: 1;
+   flex-basis: 25%;
 }
 
 .right-ico{
