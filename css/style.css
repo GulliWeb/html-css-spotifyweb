@@ -16,10 +16,7 @@ img{
     max-width: 100%;
 }
 
-i{
-    width: 100%;
-    height: 100%;
-}
+
 
 ul li{
     list-style: none;
@@ -40,6 +37,14 @@ ul li{
 
 /* Utils */
 .flex{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
+.img-card:hover .overlay{
     display: flex;
 }
 
@@ -115,7 +120,24 @@ header button:active{
 
 .nav-left-wrapper .img-card{
     width: 30px;
+    position: relative;
 }
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay i{
+    font-size: 35px;
+}
+
 
 .nav-left-wrapper .top{
     padding-top: 15px;
